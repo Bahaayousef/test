@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(245, 233, 215);
+}
+
+.grid-container{
+    display: grid; 
+    grid-template-rows: 1fr 5fr;
+    grid-template-columns: 1fr 5fr;
+}  
+
+.box{ 
+    padding: 5rem;
+    flex-grow: 1;
+}
+
+.red{
+    background-color: #233557;
+    grid-column: span 2;
+    color:white;
+}
+
+.green{
+    grid-column: span 1;
+}
+
+.blue{
+    background-color: rgb(88, 88, 146);
+    grid-row: span 2;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
